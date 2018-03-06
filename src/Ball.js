@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { View, StyleSheet, Animated } from 'react-native';
+import React, { Component } from "react";
+import { View, StyleSheet, Animated } from "react-native";
 
 class Ball extends Component {
   componentWillMount() {
@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
     width: 60,
     borderRadius: 30,
     borderWidth: 30,
-    borderColor: 'black',
+    borderColor: "black"
   }
 });
 
